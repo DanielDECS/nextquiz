@@ -8,7 +8,6 @@ const AlternativesForm = styled.form`
       &[data-status="SUCCESS"] {
         background-color: ${({ theme }) => theme.colors.success};
       }
-
       &[data-status="ERROR"] {
         background-color: ${({ theme }) => theme.colors.wrong};
       }
@@ -17,7 +16,6 @@ const AlternativesForm = styled.form`
       opacity: 1;
     } 
   }
-
   button {
     margin-top: 24px;
   }

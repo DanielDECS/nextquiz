@@ -16,7 +16,6 @@ const InputBase = styled.input`
     color: ${({ theme }) => theme.colors.contrastText}DD;
     opacity: 1; /* Firefox */
   }
-
 `;
 
 export default function Input({ onChange, placeholder, ...props }) {

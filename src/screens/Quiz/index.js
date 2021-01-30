@@ -1,4 +1,4 @@
-/* eslint-disable react/no-array-index-key */
+/* eslint-disable linebreak-style */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { Lottie } from 'react-lottie';
@@ -37,6 +37,7 @@ function ResultWidget({ results }) {
         </p>
         <ul>
           {results.map((result, index) => (
+            // eslint-disable-next-line react/no-array-index-key
             <li key={`result__${index}`}>
               #
               {index + 1}
