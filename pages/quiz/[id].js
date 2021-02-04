@@ -5,7 +5,9 @@ import { ThemeProvider } from 'styled-components';
 import QuizScreen from '../../src/screens/Quiz';
 
 export default function QuizDaGaleraPage({ dbExterno }) {
-
+  // const [db, setDb] React.useState({})
+  // React.useEffect(() => {
+  // });
   return (
     <ThemeProvider theme={dbExterno.theme}>
       <QuizScreen

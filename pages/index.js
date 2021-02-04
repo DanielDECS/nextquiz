@@ -64,6 +64,7 @@ export default function Home() {
             <form onSubmit={(infosDoEvento) => {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
+              // eslint-disable-next-line no-console
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
